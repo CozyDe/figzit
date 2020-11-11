@@ -13,18 +13,16 @@
       font-family: Georgia, 'Times New Roman', Times, serif;
       box-sizing: border-box;
   }
-   /* .size {
-       width: 500px;
-       height: 650px;
-   } */
 
    .nav-banner {
        display: flex;
        justify-content: space-between;
        align-items: center;
+       padding-top: 20px;
        flex-direction: row;
        /* background: #3b4b; */
        height: 40px;
+       width: 100%;
    }
      .space {
          margin-right: 20px;
@@ -106,6 +104,7 @@
          overflow: hidden;
          margin: 0 auto;
          max-width: 100rem;
+         width: 100%;
      }
        
      .up1 {
@@ -203,6 +202,7 @@
 
           .up {
               margin-top: 4rem;
+              width: 100%;
           }
             p.stats {
                 color: gray;
@@ -210,6 +210,7 @@
 
             .figzit-engr {
                 margin-top: 4rem;
+                width: 100%;
             }
             
             .figzit-hb {
@@ -247,6 +248,7 @@
        
             .figzit-pro {
                 margin-top: 4rem;
+                width: 100%;
             }
 
              .features {
@@ -313,6 +315,7 @@
           .figzit-pr {
               margin-top: 4.5rem;
               background: #fafafa;
+              width: 100%;
           }
             
           .pr1 h3 {
@@ -364,6 +367,7 @@
             .figzit-co {
                 background: #fafafa;
                 margin-top: 4rem;
+                width: 100%;
             }
 
              .co {
@@ -407,7 +411,8 @@
              .footer {
                  background: #0a083b;
                  margin-top: 4rem;
-                 height: auto;
+                 /* height: auto; */
+                 width: 100%;
                  /* margin-bottom: 5rem; */
              }
 
@@ -511,6 +516,14 @@
           .engr {
               flex-basis: 100%;
           }
+          .main-side img {
+              width: 250px;
+              height: 300px;
+          }
+          .engr img {
+              width: 250px;
+              height: 300px;
+          }
           .engr-note {
               flex-basis: 100%;
               align-items: center;
@@ -524,6 +537,10 @@
           }
           .pr2 {
               flex-direction: column;
+          }
+          .pr2_a img {
+              width: 250px;
+              height: 300px;
           }
           .pr2_b {
               align-items: center;
@@ -550,6 +567,13 @@
             text-align: center;
             align-items: center;
         }
+        .co2 img {
+            width: 300px;
+            height: 350px;
+        }
+        .btn-hd2 {
+            margin-top: 2rem ;
+        }
         .nav-bars {
               display: block;
           }
@@ -558,7 +582,7 @@
              background: #fff;
              top: 7%;
              height: 100vh;
-             left: 100%;
+             left: -100%;
              display: block;
              right: 0;
              width: 100%;
