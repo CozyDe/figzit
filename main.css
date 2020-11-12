@@ -18,6 +18,7 @@
        display: flex;
        justify-content: space-between;
        align-items: center;
+       position: fixed;
        padding-top: 20px;
        flex-direction: row;
        /* background: #3b4b; */
@@ -550,6 +551,9 @@
            .pr2_b h3 {
                font-size: 25px;
            }
+           .pr2_b p {
+               margin: 0 1.4rem;
+           }
            .co {
             display: flex;
             align-items: center;
@@ -573,6 +577,9 @@
         }
         .btn-hd2 {
             margin-top: 2rem ;
+        }
+        .engr-note p {
+            margin: 0 1.4rem;
         }
         .nav-bars {
               display: block;
@@ -623,6 +630,7 @@
 
     .main-ban {
         flex-basis: 50%;
+        margin-top: 4rem;
     }
     .main-side {
         flex-basis: 50%;
