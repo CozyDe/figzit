@@ -378,7 +378,7 @@
             
             .co1 {
                  flex-basis: 50%;
-                 padding-left: 1.6rem;
+                 margin-left: 1.6rem;
              }
 
              .co1 p {
@@ -481,10 +481,11 @@
 
             .ft-list li {
                 color: gray;
-            }
-        @media (max-width:768px) {
+         }
+
+          @media screen and (max-width:480px) {
             .main-ban {
-                padding-left: 1.4rem;
+                padding-left: 4rem;
             }
 
           .elijah {
@@ -497,7 +498,7 @@
               width: 23rem;
           }
           .elijah p {
-              font-size: 1.2rem;
+              font-size: 1.1rem;
               width: 20rem;
           }
           .row {
@@ -553,19 +554,25 @@
            }
            .pr2_b p {
                margin: 0 1.4rem;
+               font-size: 22px;
+           }
+           .list-check li {
+               font-size: 22px;
            }
            .co {
             display: flex;
             align-items: center;
             flex-direction: column;
+            margin: 0 1.4rem;
            }
            .co1 h3 {
             color: darkblue;
-            width: 20rem;
-            font-size: 30px;
-         }
+            width: 18rem;
+            font-size: 25px;
+    }
          .co1 p {
-            width: 20rem;
+            width: 19rem;
+            font-size: 21px;
         }
         .co2 {
             text-align: center;
@@ -580,6 +587,158 @@
         }
         .engr-note p {
             margin: 0 1.4rem;
+            font-size: 20px;
+        }
+        .nav-bars {
+              display: block;
+          }
+           #bring {
+             position: absolute;
+             background: #fff;
+             top: 7%;
+             height: 100vh;
+             left: -100%;
+             display: block;
+             right: 0;
+             width: 100%;
+             transition: all 0.4s ease-in-out;
+             padding-top: 3em;
+             line-height: 3;
+           }
+           #bring.is-active {
+               left: 0;
+               transition: all .3s linear;
+           }
+        .nav-links li {
+            display: block;
+            padding: .8rem 1.4rem;
+            text-align: center;
+            /* color: #000; */
+        }
+        .nav-links li a {
+            color: #000;
+        }
+         .active {
+             padding: .8rem 1.4rem;
+             color: #fff;
+         } 
+    }
+
+     /* @media screen and (min-width:600px) {
+        .elijah {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-ban {
+            margin-left: -7rem;
+        }
+        /* .main-side img {
+            width: 500px;
+            height: 300px;
+        }
+        .engr img {
+            width: 500px;
+            height: 300px;
+        }
+     } */
+      
+            
+    @media screen and (max-width:768px) {    
+        .elijah {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          .elijah h3 {
+              font-size: 2.1rem;
+              width: 23rem;
+          }
+          .elijah p {
+              width: 20rem;
+          }
+          .row {
+              flex-direction: column;
+          }
+          .col-1 {
+              height: auto;
+          }
+          .col-1 h3 {
+              text-align: center;
+              align-items: center;
+          }
+          .figzit-hb {
+              flex-direction: column;
+              align-items: center;
+          }
+          .engr {
+              flex-basis: 100%;
+          }
+          .main-side img {
+              width: 250px;
+              height: 300px;
+          }
+          /* .engr img {
+              width: 250px;
+              height: 300px;
+          } */
+          .engr-note {
+              flex-basis: 100%;
+              align-items: center;
+              text-align: center;
+          }
+          .pr1 h3 {
+            color: darkblue;
+            width: 20rem;
+            font-size: 25px;
+            padding-left: 1rem;
+          }
+          .pr2 {
+              flex-direction: column;
+          }
+          .pr2_a img {
+              width: 250px;
+              height: 300px;
+          }
+          .pr2_b {
+              align-items: center;
+              text-align: center;
+              margin-top: 3rem;
+          }
+           .pr2_b h3 {
+               font-size: 25px;
+           }
+           .pr2_b p {
+               margin: 0 1.4rem;
+               font-size: 22px;
+           }
+           .list-check li {
+               font-size: 22px;
+           }
+           .co {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 1.4rem;
+           }
+           .co1 h3 {
+            color: darkblue;
+            width: 18rem;
+            font-size: 25px;
+       }
+         .co1 p {
+            width: 19rem;
+        }
+        .co2 {
+            text-align: center;
+            align-items: center;
+        }
+        .co2 img {
+            width: 300px;
+            height: 350px;
+        }
+        .btn-hd2 {
+            margin-top: 2rem ;
         }
         .nav-bars {
               display: block;
@@ -615,6 +774,8 @@
              color: #fff;
          }
       }
+
+
       #toggledown {
           padding-top: 10px;
       }
