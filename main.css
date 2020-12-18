@@ -19,10 +19,10 @@
        justify-content: space-between;
        align-items: center;
        position: fixed;
-       padding-top: 20px;
+       padding-top: 5px;
        flex-direction: row;
-       /* background: #3b4b; */
-       height: 40px;
+       background: #fff;
+       height: auto;
        width: 100%;
    }
      .space {
@@ -138,7 +138,6 @@
             background-color: blue;
             color: #fff;
             text-align: center;
-            margin-left: 22px;
             padding: .8rem 1.5rem;
             border-radius: 1.2rem;
             outline: none;
@@ -484,6 +483,12 @@
          }
 
           @media screen and (max-width:480px) {
+             .nav-links2 {
+                 display: none;
+             }
+             .nav-banner {
+                 height: 60px;
+             }
             .main-ban {
                 padding-left: 4rem;
             }
@@ -557,7 +562,7 @@
                font-size: 22px;
            }
            .list-check li {
-               font-size: 22px;
+               font-size: 20px;
            }
            .co {
             display: flex;
@@ -571,7 +576,7 @@
             font-size: 25px;
     }
          .co1 p {
-            width: 19rem;
+            width: 16rem;
             font-size: 21px;
         }
         .co2 {
@@ -607,7 +612,7 @@
            }
            #bring.is-active {
                left: 0;
-               transition: all .3s linear;
+               transition: all .3s ease-in;
            }
         .nav-links li {
             display: block;
@@ -624,27 +629,17 @@
          } 
     }
 
-     /* @media screen and (min-width:600px) {
-        .elijah {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+    @media screen and (min-width:600px) {
+        .list-check li {
+            font-size: 26px;
         }
-        .main-ban {
-            margin-left: -7rem;
-        }
-        /* .main-side img {
-            width: 500px;
-            height: 300px;
-        }
-        .engr img {
-            width: 500px;
-            height: 300px;
-        }
-     } */
+    }
       
             
     @media screen and (max-width:768px) {    
+          .nav-links2 {
+              display: none;
+          }
         .elijah {
               display: flex;
               flex-direction: column;
@@ -712,9 +707,9 @@
                margin: 0 1.4rem;
                font-size: 22px;
            }
-           .list-check li {
+           /* .list-check li {
                font-size: 22px;
-           }
+           } */
            .co {
             display: flex;
             align-items: center;
