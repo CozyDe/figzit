@@ -5,12 +5,12 @@ navDown.addEventListener("click", function changeNav(){
     navDown.classList.toggle("change");
 });
 
- window.onscroll = function() {
-     var currentScroll = window.pageYOffset;
-     if (currentScroll > 30) {
-         document.querySelector(".nav-banner").style.height = "auto";
-     }
-      else {
-          document.querySelector(".nav-banner").style.height = "10vh";
-    }
- }
+//  window.onscroll = function() {
+//      var currentScroll = window.pageYOffset;
+//      if (currentScroll > 30) {
+//          document.querySelector(".nav-banner").style.height = "8vh";
+//      }
+//       else {
+//           document.querySelector(".nav-banner").style.height = "5vh";
+//     }
+//  }

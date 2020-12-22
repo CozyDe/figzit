@@ -110,9 +110,7 @@
        
      .up1 {
         padding: 0;
-        overflow: hidden;
         margin: 0 auto;
-        max-width: 90rem;
      }
  
       .elijah {
@@ -150,7 +148,7 @@
            list-style: none;
            padding: 0 .2rem;
            margin: 0;
-           font-size: 1.5rem;
+           font-size: 1.3rem;
        }
          .list-check li {
              color: gray;
@@ -180,10 +178,11 @@
          }
 
          .col-1 {
-             max-width: 30%;
+             flex-basis: 23%;
              height: 150px;
              margin: 0 auto;
              display: block;
+             box-shadow: 10px 30px 10px rgba(0, 0, 0, 0.1);
              padding: .5rem;
              text-align: center;
              background-color: #fff;
@@ -192,7 +191,7 @@
            
           .head {
               color: darkblue;
-              font-size: 40px;
+              font-size: 30px;
               font-weight: bold;
          }
 
@@ -228,11 +227,11 @@
           }
             .engr-note h3 {
                 color: darkblue;
-                font-size: 25px;
+                font-size: 22px;
             }
               .sats {
                   color: rgba(128, 128, 128, 1);
-                  font-size: 1.5rem;
+                  font-size: 1.3rem;
               }
               .engr-note_btn {
                 background-color: gold;
@@ -262,7 +261,7 @@
               }
 
                .features p {
-                   font-size: 35px;
+                   font-size: 30px;
                    color: darkblue;
                    font-weight: bold;
                }
@@ -321,7 +320,7 @@
           .pr1 h3 {
                 color: darkblue;
                 width: 36rem;
-                font-size: 35px;
+                font-size: 28px;
                 padding-top: 5rem;
                 padding-left: 1.6rem;
             }
@@ -422,10 +421,10 @@
               }
             
              .hd2 h3 {
-                 font-size: 35px;
-                 color: white;
-                 padding-left: 1.4rem;
-                 width: 35rem;
+                font-size: 25px;
+                color: white;
+                padding-left: 1.4rem;
+                width: 30rem;
              }
 
              .hd2 {
@@ -446,7 +445,7 @@
                  display: block;
              }
 
-             .btn-hd2 a {
+             .hd2 a {
                  text-decoration: none;
              }
 
@@ -513,7 +512,22 @@
           }
 
           @media screen and (max-width:480px) {
-             .ft-main {
+            .btn-hd2 {
+                margin-left: 1rem;
+            }
+            .features p {
+                 font-size: 25px;
+             } 
+             .col-2 {
+                 max-width: 60%;
+                 height: auto;
+             }
+             .hd2 h3 {
+                 font-size: 22px;
+                 line-height: 1.4;
+                 width: 30rem;
+             }
+            .ft-main {
                  flex-direction: column;
                  position: relative;
                  left: -6rem;
@@ -550,7 +564,8 @@
               flex-direction: column;
           }
           .col-1 {
-              height: auto;
+              width: 80%;
+              margin-top: 1rem;
           }
           .col-1 h3 {
               text-align: center;
@@ -576,12 +591,6 @@
               align-items: center;
               text-align: center;
           }
-          .pr1 h3 {
-            color: darkblue;
-            width: 20rem;
-            font-size: 25px;
-            padding-left: 1rem;
-          }
           .pr2 {
               flex-direction: column;
           }
@@ -594,15 +603,12 @@
               text-align: center;
               margin-top: 3rem;
           }
-           .pr2_b h3 {
-               font-size: 25px;
-           }
            .pr2_b p {
-               margin: 0 1.4rem;
-               font-size: 22px;
+               font-size: 19px;
+               line-height: 1.6;
            }
            .list-check li {
-               font-size: 20px;
+               font-size: 1.1rem;
            }
            .co {
             display: flex;
@@ -616,8 +622,7 @@
             font-size: 25px;
     }
          .co1 p {
-            width: 16rem;
-            font-size: 21px;
+            font-size: 17px;
         }
         .co2 {
             text-align: center;
@@ -627,12 +632,10 @@
             width: 300px;
             height: 350px;
         }
-        .btn-hd2 {
-            margin-top: 2rem ;
-        }
         .engr-note p {
             margin: 0 1.4rem;
-            font-size: 20px;
+            font-size: 17px;
+            line-height: 1.6;
         }
         .nav-bars {
               display: block;
@@ -670,9 +673,12 @@
     }
 
     @media screen and (min-width:600px) {
-        .list-check li {
+        /* .list-check li {
             font-size: 26px;
-        }
+        } */
+        /* .co1 p {
+            width: 17rem;
+        } */
     }
       
             
@@ -685,6 +691,10 @@
               flex-direction: column;
               align-items: center;
           }
+          .row-1 {
+              width: 100%;
+              padding: .1rem;
+          }
           .elijah h3 {
               font-size: 2.1rem;
               width: 23rem;
@@ -692,11 +702,11 @@
           .elijah p {
               width: 20rem;
           }
-          .row {
-              flex-direction: column;
-          }
           .col-1 {
               height: auto;
+              flex-basis: 50%;
+              width: 60%;
+              margin-top: .5rem;
           }
           .col-1 h3 {
               text-align: center;
@@ -709,8 +719,12 @@
           .engr {
               flex-basis: 100%;
           }
+          .engr img {
+              width: 300px;
+              height: 300px;
+          }
           .main-side img {
-              width: 250px;
+              width: 300px;
               height: 300px;
           }
           /* .engr img {
@@ -724,8 +738,8 @@
           }
           .pr1 h3 {
             color: darkblue;
-            width: 20rem;
-            font-size: 25px;
+            width: 18rem;
+            font-size: 22px;
             padding-left: 1rem;
           }
           .pr2 {
@@ -741,11 +755,10 @@
               margin-top: 3rem;
           }
            .pr2_b h3 {
-               font-size: 25px;
+               font-size: 23px;
            }
            .pr2_b p {
                margin: 0 1.4rem;
-               font-size: 22px;
            }
            /* .list-check li {
                font-size: 22px;
@@ -762,7 +775,8 @@
             font-size: 25px;
        }
          .co1 p {
-            width: 19rem;
+            width: 17rem;
+            line-height: 1.6;
         }
         .co2 {
             text-align: center;
@@ -808,6 +822,11 @@
              padding: .8rem 1.4rem;
              color: #fff;
          }
+         .ft-main {
+            flex-direction: column;
+            position: relative;
+            left: -6rem;
+        }
       }
 
 
