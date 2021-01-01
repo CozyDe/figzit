@@ -233,7 +233,7 @@
             }
               .sats {
                   color: rgba(128, 128, 128, 1);
-                  font-size: 1.4rem;
+                  font-size: 1.2rem;
                   line-height: 1.6;
               }
               .engr-note_btn {
@@ -515,8 +515,10 @@
 
           @media screen and (max-width:480px) {
              .pr2 h3 {
-                 font-size: 27px;
-             }
+                font-size: 24px;
+                margin: 0 .5rem;
+                text-align: left;
+            }
             .btn-hd2 {
                 margin-left: 1rem;
             }
@@ -525,7 +527,7 @@
                  height: auto;
              }
              .hd2 h3 {
-                 font-size: 22px;
+                 font-size: 24px;
                  line-height: 1.4;
                  width: 30rem;
              }
@@ -579,10 +581,14 @@
               align-items: center;
           }
           .engr-note h3 {
-              margin: 0 1.4rem;
+              margin: 0 .5rem;
+              font-size: 24px;
           }
           .engr-note_btn {
-              margin: 0 1.4rem;
+              margin: 0 .5rem;
+          }
+          .features p {
+              font-size: 24px;
           }
           .pr2 {
               flex-direction: column;
@@ -592,7 +598,7 @@
               height: 300px;
           }
            .pr2_b p {
-               font-size: 1.3rem;
+               font-size: 1.1rem;
                line-height: 1.6;
            }
            .list-check li {
@@ -610,7 +616,7 @@
             font-size: 25px;
     }
          .co1 p {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
         }
         .co2 {
             text-align: center;
@@ -621,8 +627,8 @@
             height: 350px;
         }
         .engr-note p {
-            margin: 0 1.4rem;
-            font-size: 1.3rem;
+            margin: 0 .5rem;
+            font-size: 1.1rem;
             line-height: 1.6;
         }
         .nav-bars {
@@ -718,7 +724,7 @@
           .pr1 h3 {
             color: darkblue;
             width: 18rem;
-            font-size: 27px;
+            font-size: 25px;
             padding-left: 1rem;
           }
           .pr2 {
@@ -733,7 +739,7 @@
               margin-top: 3rem;
           }
            .pr2_b p {
-               margin: 0 1.4rem;
+               margin: 0 .5rem;
            }
            /* .list-check li {
                font-size: 22px;
@@ -747,7 +753,7 @@
            .co1 h3 {
             color: darkblue;
             width: 18rem;
-            font-size: 25px;
+            font-size: 24px;
        }
          .co1 p {
             width: 17rem;
